@@ -75,8 +75,12 @@ nav {
     width: 240px;
     position: fixed;
     height: 100%;
-    overflow: auto;
+    overflow: hidden;
   }
+
+nav:hover {
+    overflow: auto;
+}
 
 .logo {
     width: 120px;
