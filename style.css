@@ -76,12 +76,6 @@ nav {
     overflow: auto;
   }
 
-nav::-webkit-scrollbar {
-    display: none; /* Hide scrollbar for Chrome, Safari and Opera */
-    -ms-overflow-style: none;  /*IE and Edge */
-    scrollbar-width: none;  /*Firefox */
-}
-
 .sidebar-section {
     font-size: 14px;
     line-height: 2rem;
@@ -112,3 +106,22 @@ a {
     text-decoration: none;
     color: #fff;
 }
+
+/*Scroll bar style */
+/* width */
+::-webkit-scrollbar {
+    width: 9px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #88888893;
+    border-radius: 5px;
+  }
+
+  /* End of scrollbar style */
