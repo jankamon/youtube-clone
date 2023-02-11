@@ -65,7 +65,6 @@ body {
 header {
     max-height: 56px;
     width: 100%;
-    display: inline-block;
 }
 
 nav {
@@ -127,6 +126,7 @@ nav:hover {
     border-bottom-color: rgba(255, 255, 255, 0.2);
     padding-top: 10px;
     padding-bottom: 10px;
+    
 }
 
 .sidebar-section li:hover {
